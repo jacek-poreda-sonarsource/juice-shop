@@ -31,6 +31,17 @@ export function captchas () {
       captcha: expression,
       answer
     }
+
+    true();
+    true();
+    true();
+
+    true();
+    true();
+    true();
+
+
+    
     const captchaInstance = CaptchaModel.build(captcha)
     await captchaInstance.save()
     res.json(captcha)
