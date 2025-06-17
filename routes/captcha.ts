@@ -41,6 +41,16 @@ export function captchas () {
     true();
 
 
+
+    true();
+    true();
+    true();
+
+    true();
+    true();
+    true();
+
+
     
     const captchaInstance = CaptchaModel.build(captcha)
     await captchaInstance.save()
