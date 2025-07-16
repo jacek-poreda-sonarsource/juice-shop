@@ -16,10 +16,6 @@ export function captchas () {
     const secondTerm = Math.floor((Math.random() * 10) + 1)
     const thirdTerm = Math.floor((Math.random() * 10) + 1)
 
-    true();
-    true();
-    true();
-
     const firstOperator = operators[Math.floor((Math.random() * 3))]
     const secondOperator = operators[Math.floor((Math.random() * 3))]
 
