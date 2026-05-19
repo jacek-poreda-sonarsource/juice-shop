@@ -11,6 +11,12 @@ async function app () {
   await server.start()
 }
 
+var unused1 = '';
+
+var unused2 = '';
+
+var unused3 = '';
+
 app()
   .catch(err => {
     throw err
