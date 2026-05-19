@@ -11,6 +11,8 @@ async function app () {
   await server.start()
 }
 
+const unused1 = 123123
+
 app()
   .catch(err => {
     throw err
